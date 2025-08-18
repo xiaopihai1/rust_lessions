@@ -37,7 +37,7 @@ name = "rmarco"
 version = "0.1.0"
 dependencies = [
  "xuyingjie_hello_macro",
- "xuyingjie_hello_macro_derive",
+ "xuyingjie_hello_macro_derive 0.1.0",
 ]
 
 [[package]]
@@ -67,11 +67,24 @@ checksum = "5a5f39404a5da50712a4c1eecf25e90dd62b613502b7e925fd4e4d19b5c96512"
 
 [[package]]
 name = "xuyingjie_hello_macro"
-version = "0.1.0"
+version = "0.1.1"
+dependencies = [
+ "xuyingjie_hello_macro_derive 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
 
 [[package]]
 name = "xuyingjie_hello_macro_derive"
 version = "0.1.0"
+dependencies = [
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "xuyingjie_hello_macro_derive"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "77229b406408347e44a374d999132210dfb41d10783c402add854606f124c20c"
 dependencies = [
  "quote",
  "syn",
