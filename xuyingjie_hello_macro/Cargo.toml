@@ -1,6 +1,6 @@
 [package]
 name = "xuyingjie_hello_macro"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description = "test for publish xuyingjie_hello_macro"
 license = "MIT"

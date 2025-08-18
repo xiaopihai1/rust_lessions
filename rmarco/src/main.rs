@@ -1,7 +1,4 @@
-use xuyingjie_hello_macro::HelloMacro;
 
-#[derive(xuyingjie_hello_macro_derive::HelloMacro)]
-struct MyStruct;
 fn main() {
-    MyStruct::hello_macro();
+    println!("Hello, world! This is the main function of the rmarco crate.");
 }
