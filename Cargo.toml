@@ -1,0 +1,20 @@
+[workspace]
+members = [ 
+    "xuyingjie_hello_macro", 
+    "xuyingjie_hello_macro_derive", 
+    "rclosure", 
+    "rhashmap",
+    "riterators", 
+    "rmarco", 
+    "rpanic", 
+    "rthread",
+]
+
+resolver = "3"
+
+[profile.release]
+panic = 'abort'
+
+
+[profile.dev]
+panic = 'abort'

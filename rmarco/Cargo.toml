@@ -1,0 +1,8 @@
+[package]
+name = "rmarco"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+xuyingjie_hello_macro = { path = "../xuyingjie_hello_macro" }
+xuyingjie_hello_macro_derive = { path = "../xuyingjie_hello_macro_derive" }
