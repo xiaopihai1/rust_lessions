@@ -1,0 +1,16 @@
+[package]
+name = "xuyingjie_hello_macro_attribute"
+version = "0.1.0"
+edition = "2021"
+description = "test for publish xuyingjie_hello_macro"
+license = "MIT"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2", features = ["full"]}
+quote = "1.0"
+proc-macro2 = "1"
+
+

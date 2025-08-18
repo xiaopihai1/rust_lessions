@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-xuyingjie_hello_macro_derive = {version = "0.1.0"}
+xuyingjie_hello_macro ={ path = "../xuyingjie_hello_macro"}

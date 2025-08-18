@@ -7,3 +7,4 @@ license = "MIT"
 
 [dependencies]
 xuyingjie_hello_macro_derive = "0.1.0"
+xuyingjie_hello_macro_attribute = { path = "../xuyingjie_hello_macro_attribute" }

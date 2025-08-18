@@ -7,8 +7,11 @@ members = [
     "riterators", 
     "rmarco", 
     "rpanic", 
-    "rthread",
+    "rthread", 
+    "xuyingjie_hello_macro_attribute",
+
 ]
+
 
 resolver = "3"
 
